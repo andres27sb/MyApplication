@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9CFFAB40"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/twitwer"
+        tools:layout_editor_absoluteX="265dp"
+        tools:layout_editor_absoluteY="695dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/facebook"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="695dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="170dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#448AFF"
+        android:text="Registrarse"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="603dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="273dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Correo"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="404dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="273dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="170dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#69F0AE"
+        android:text="Inicia sesion"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="543dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/google"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="695dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="317dp"
+        android:layout_height="417dp"
+        app:srcCompat="@drawable/Mario"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="-13dp" />
+
+</android.support.constraint.ConstraintLayout>
